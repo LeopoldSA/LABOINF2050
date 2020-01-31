@@ -1,0 +1,35 @@
+1/Pour inclure une librairie externe dans IntelliJ:
+
+
+Fichier > Project Structure > Modules > Dependecies > + > JARs or directories
+
+Raccourcis:
+
+Windows/Linux :  CTRL + SHIFT + ALT + S
+
+MAC Os : Command + ;
+
+
+2/Pour les inclure par ligne de commande:
+
+
+javac -cp .:lib/* Programme.java
+java -cp .:.lib/* Programme
+
+3/ Objets utiles:
+JSONArray; JSONObject;
+
+2/Méthodes utiles pour la création d'un JSon:
+
+JSONArray.add(JSONObject objetJson);
+JSONObject.put(String clef, String contenu);
+
+4/Méthodes Java utiles pour la lecture d'un JSon:
+
+String jsonText = DiskFile.loadFiletoString(String filename);
+JSONObject object = (JSONObject);
+JSONSerializer.toJSON(String jsonText);
+JSONArray.get(int index);
+JSONObject.getString(String clef);
+JSONArray array =(JSONArray);
+JSONObject.getJSONArray(String clef);
