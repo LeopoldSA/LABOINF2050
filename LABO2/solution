@@ -45,7 +45,7 @@ Quelques commandes git utiles:
 git commit -a = git add . + git commit . //Ajoute toutes mes modifications
 à l'index et fait un commit pour tout
 
-git commit --amend //permet de remplacer le dernier commit, ça marche ssi je
+git commit --amend //permet de remplacer le message du dernier commit, ça marche ssi je
 n'ai pas encore push mes modifications
 
 git revert //ne supprime pas mon ancien commit et ne l'annule pas, mais ajoute un commit aui
