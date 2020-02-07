@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2747be23-f1d2-411a-92de-3e7daab6b591" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LABO4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Activites.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ClasseSansDependances.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DiskFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LectureJson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LoggingExemple.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1XSbV90V4RV2YQDJ5SmeDBqBxZD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunManager" selected="Application.LoggingExemple">
+    <configuration name="ClasseSansDependances" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ClasseSansDependances" />
+      <module name="LABO4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoggingExemple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LoggingExemple" />
+      <module name="LABO4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.LoggingExemple" />
+        <item itemvalue="Application.ClasseSansDependances" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2747be23-f1d2-411a-92de-3e7daab6b591" name="Default Changelist" comment="" />
+      <created>1581042464053</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581042464053</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="395" y="90" key="#Project_Structure" timestamp="1581046490618">
+      <screen x="0" y="23" width="1440" height="811" />
+    </state>
+    <state x="395" y="90" key="#Project_Structure/0.23.1440.811@0.23.1440.811" timestamp="1581046490618" />
+    <state x="184" y="113" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581055374662">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="184" y="113" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1581055374662" />
+    <state width="1398" height="303" key="GridCell.Tab.0.bottom" timestamp="1581058178041">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1581058178041" />
+    <state width="1398" height="303" key="GridCell.Tab.0.center" timestamp="1581058178040">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1581058178040" />
+    <state width="1398" height="303" key="GridCell.Tab.0.left" timestamp="1581058178036">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1581058178036" />
+    <state width="1398" height="303" key="GridCell.Tab.0.right" timestamp="1581058178040">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1581058178040" />
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1581058178042">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1581058178042" />
+    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1581058178042">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1581058178042" />
+    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1581058178041">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1581058178041" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1581058178042">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1581058178042" />
+    <state x="221" y="66" key="SettingsEditor" timestamp="1581055896195">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="221" y="66" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1581055896195" />
+    <state x="450" y="258" key="com.intellij.ide.util.TipDialog" timestamp="1581046092345">
+      <screen x="0" y="23" width="1440" height="811" />
+    </state>
+    <state x="450" y="258" key="com.intellij.ide.util.TipDialog/0.23.1440.811@0.23.1440.811" timestamp="1581046092345" />
+    <state x="388" y="118" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1581055691863">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="388" y="118" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1440.900@0.0.1440.900" timestamp="1581055691863" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1581055937336">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1581055937336" />
+  </component>
+</project>
