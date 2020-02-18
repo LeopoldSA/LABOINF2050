@@ -1,0 +1,61 @@
+Solutions du laboratoire 5:
+
+1/ Créer un nouveau projet en selectionnant Maven
+
+2/ Les fichiers sources sont créés dans le Path: src/main/java 
+
+3/ Les fichiers tests sont générés automatiquement dans src/test/java => clic
+droit sur le nom de la classe source + generate + Test
+
+4/Nous avons besoin de la dépendance junit pour l'import des assertions:
+
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>5.5.2</version>
+            <scope>test</scope>
+        </dependency>
+
+5/Pour verfifier la couverture de nos lignes de code en tests nous avons besoin
+de la dépendance jacoco :
+
+        <dependency>
+            <groupId>org.jacoco</groupId>
+            <artifactId>jacoco-maven-plugin</artifactId>
+            <version>0.8.4</version>
+        </dependency>
+
+RQ: Toutes les dependances vont dans la balise <dependencies></dependencies>
+dans le fichier pom.xml
+
+6/ Ne pas oublier @Test avant nos méthodes de test
+
+RQ:  assertThrows nous permet de tester les exceptions que léve notre code
+
+
+
+
+
+
+
+
+
+
+
+RQ: pour les vesions JDK11 nous avons besoin du plugin maven compiler :
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+  (RQ: ce plugin va dans la balise <build></build>)
+
