@@ -258,8 +258,9 @@ Maven s'utilise à la ligne de commande ou s'intègre à l'IDE.
 
 
 ## Test :
-*L'outils le plus important à maitriser : git.
-Le deuxième : les tests unitaires.*
+*L'outils le plus important à maitriser : git.*
+
+*Le deuxième : les tests unitaires.*
 
  **RQ** : Un bon test unitaire  doit être 
  pertinant.
