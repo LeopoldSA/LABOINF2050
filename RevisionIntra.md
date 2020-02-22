@@ -95,24 +95,24 @@ Le développeur doit se concentrer sur autre chose que le style durant son trava
 ## Gestion de sources :
 
 Un logiciel qui gére le code source permet :
-Les modifications
-Plusieurs versions
-Modifications concurrentes
+- Les modifications
+- Plusieurs versions
+- Modifications concurrentes
 > 2 personnes qui modifient le même fichier en même temps
 
-Imputabilité des changements 
+- Imputabilité des changements 
 > `qui` a modifié quoi à quel moment.
 
-Historique des modifications
+- Historique des modifications
 > `a quel moment` les modifications ont été faites, par qui et sur quel fichier.
 
 - Pas de possibilité d'écraser le travail de quelqu'un d'autre.
 - Les gestionnaires de source sont faits pour favoriser le travail dans une équipe de développeurs.
 
 Un gestionnaire de source permet :
-mises à jour des sources
-retours en arrière 
-consulter les anciennes versions d'un fichier
+- mises à jour des sources
+- retours en arrière 
+- consulter les anciennes versions d'un fichier
 
 #### Qualités :
 - Simplicité d'utlisation
@@ -142,30 +142,31 @@ Il existe deux types de gestionnaires de source:
 
 
 ### Commandes :
-`git init` : Crée un dépôt local pour un nouveau projet.
-`git clone <url>` : Crée un dépôt local en téléchargeant un dépot distant déjà existant.
-`git add <fichier>` : Ajoute un fichier modifié à l'index.
-`git checkout <fichier>` : Prend le fichier tel que dans l'index et le remt dans mon working tree.
-`git rm` : Supprime du working tree + ajoute l'option de suppression de l'historique (tant que je ne push pas le fichier/répertoire n'est pas supprimé du dépôt distant ni du dépôt local il est juste supprimé de l'index).
-`git diff <fichier>` : Présente les  les modifications faites dans un fichier.
-`git commit` : Les modifications passent de l'index au local repository.
-`git reset <fichier>` : Retire les modifications d'un fichier de l'index (avant un commit).
-`git commit -a` = `git add .` + `git commit .`
-`git commit -m <message>` : Commit en spécifiant une description, facilite la recherche de commits dans l'historique.
-`git reset -hard HEAD` : Ça écrase l'index et le répértoire local pour remettre tout à la dernière version qui est sur le dépôt distant.
+- `git init` : Crée un dépôt local pour un nouveau projet.
+- `git clone <url>` : Crée un dépôt local en téléchargeant un dépot distant déjà existant.
+- `git add <fichier>` : Ajoute un fichier modifié à l'index.
+- `git checkout <fichier>` : Prend le fichier tel que dans l'index et le remt dans mon working tree.
+- `git rm` : Supprime du working tree + ajoute l'option de suppression de l'historique (tant que je ne push pas le fichier/répertoire n'est pas supprimé du dépôt distant ni du dépôt local il est juste supprimé de l'index).
+- `git diff <fichier>` : Présente les  les modifications faites dans un fichier.
+- `git commit` : Les modifications passent de l'index au local repository.
+- `git reset <fichier>` : Retire les modifications d'un fichier de l'index (avant un commit).
+- `git commit -a` = `git add .` + `git commit .`
+- `git commit -m <message>` : Commit en spécifiant une description, facilite la recherche de commits dans l'historique.
+- `git reset -hard HEAD` : Ça écrase l'index et le répértoire local pour remettre tout à la dernière version qui est sur le dépôt distant.
 >HEAD : Contient le dernier commit 
 
-`git clean -df`: Efface tout ce qui n'est pas dans l'index.
-`git log` :  Affiche l'historique des commits.
-`git blame <fichier>` : Affiche *qui* a modifié chaque ligne du fichier.
-`git push` : Du dépot local vers le dépot local vers le dépot distant.
-`git pull` : Du dépot distant vers le dépot local (des conflits peuvent survenir lors de cette opération).
-`git revert <commit>` : Crée un nouveau commit qui supprime les modifications de l'acien.
+- `git clean -df`: Efface tout ce qui n'est pas dans l'index.
+- `git log` :  Affiche l'historique des commits.
+- `git blame <fichier>` : Affiche *qui* a modifié chaque ligne du fichier.
+- `git push` : Du dépot local vers le dépot local vers le dépot distant.
+- `git pull` : Du dépot distant vers le dépot local (des conflits peuvent survenir lors de cette opération).
+- `git revert <commit>` : Crée un nouveau commit qui supprime les modifications de l'acien.
 **Ne supprime pas l'ancien commit et ne l'annule pas.**
+**RQ : Les commandes des questions bonus ont été vues en lab.**
 
 ### Conflicts:
-Les conflicts surviennent quand deux personnes ont modifié la même ligne de code.
-Git vous de mandera laquelle conserver.
+- Les conflicts surviennent quand deux personnes ont modifié la même ligne de code.
+- Git vous de mandera laquelle conserver.
 => Il faut résoudre un conflit avec un nouveau commit.
 
 ### Conclusion:
@@ -176,18 +177,18 @@ Un gestionnaire de source est indispensable en toute situation pour un développ
 ## Environnement de développement 
 *Un livrable* est ce qu'on doit livrer au client.
 Ça peut-être :
-Le code source  
-Les tests  
-Les fichiers connexes (JAR, SQL, ant, etc.) 
-Les versions du logiciel  
-Les dépendances et leurs versions  
-Projet construit (déployé)
-La documentation
- - Pour développeurs
- -  Pour opérateurs
- -  Pour gestionnaires 
- - Pour utilisateurs
- - Wiki
+- Le code source  
+- Les tests  
+- Les fichiers connexes (JAR, SQL, ant, etc.) 
+- Les versions du logiciel  
+- Les dépendances et leurs versions  
+- Projet construit (déployé)
+- La documentation
+ - - Pour développeurs
+ - - Pour opérateurs
+ - - Pour gestionnaires 
+ - - Pour utilisateurs
+ - - Wiki
 
 *RQ:* Diagrammes servent à la communication dans l'équipe et non à la documentation du logiciel.
 
@@ -282,20 +283,20 @@ C'est pour ça qu'il faut demandé au client quels sont ses critères de satisfa
 
 **RQ**:
 Un test unitaire ne doit pas :
-Manipuler un fichier  
-Traiter avec une base de données  
-Effectuer une communication sur un réseau Dépendre d'un environnement de test Communiquer avec le système d'exploitation.
+- Manipuler un fichier  
+- Traiter avec une base de données  
+- Effectuer une communication sur un réseau Dépendre d'un environnement de test Communiquer avec le système d'exploitation.
 => Se baser sur quelque chose de l'environnement extérieur génère encore plus d'erreurs. 
 
 **Bonnes pratiques**
 
-Entretenir le code de test comme si c'était du code de production.
+- Entretenir le code de test comme si c'était du code de production.
 	Éliminer la duplication.  
 	Faire du refactoring.
 	Appliquer des patrons de test.
-Essayer de n'avoir qu'une assertion par test.
-Avoir une bonne couverture de tests.
-Exécuter nos tests après chaque modification du code.
+- Essayer de n'avoir qu'une assertion par test.
+- Avoir une bonne couverture de tests.
+- Exécuter nos tests après chaque modification du code.
 
 **Bogues**
 
@@ -312,6 +313,7 @@ Ce test nous assure qu'on ne réinjectera pas le bogue une deuxième fois dans l
 - `@After` indique que la méthode sera exécutée après chaque test, habituellement nommée tearDown
 -`@BeforeClass` exécutera la méthode une seule fois avant l'ensemble des tests de la classe
 - `@AfterClass` exécutera la méthode une seule fois après l'ensemble des tests de la classe
+> Question Bonus : A partir de JUnit5 l'annotation `@Before` est remplacée par `@BeforeEach`, `@After` par `@AfterEach`, `@BeforeClass` par `@BeforeAll` et `@AfterClass` par `@AfterAll`.
 
 **Assertions**
 Une assertion est une condition qui doit etre vraie et qui sert à verifier que le test et la méthode testée marchent comme souhaité.
