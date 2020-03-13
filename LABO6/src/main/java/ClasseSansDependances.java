@@ -10,6 +10,9 @@ public class ClasseSansDependances {
         System.out.printf("Après permutation :%n x:%d y:%d%n",x,y);
     }
 
+    // commentaire et commentaires
+    //
+    //
     public static double claculMoyenne (double x, double y){
         return (x+y)/2;
     }
