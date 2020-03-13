@@ -1,0 +1,16 @@
+2/ La commande : `git checkout -b "branche_essai"` nous permet de créer une branche nomée "branche_essai" et de placer nos commits sur la branche en question.
+
+3/ La commande : `git checkout master` nous permettera de retourner à la branche principale `master`
+
+RQ: De façon générale la commande `git checkout` nous permet de nous deplacer d'une branche à l'autre.
+
+4/ Pour fusionner deux branche, on se place sur la branche réceptrice avec `git checkout <branche_receptrice>`, en suite on merge la branche secondaire avec `git merge <branche_sec>`
+
+6/ Pour afficher l'historique de tous nos commits on va utiliser `git log --all --pretty=oneline` 
+
+--all : Tous les commits de toutes les branches de mon depot
+--pretty=oneline : Affiche chaque commit sur une ligne
+
+On procède comme dans l'exercice 4, on va utiliser `git cherry-pick <n_du_commit>` pour la fusion.
+
+  
